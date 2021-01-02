@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020-11-03 23:21:15.106,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-11-03 23:33:42.264,D:\Programming\GitHub\Delphi\델파이기초20201101\Record\Unit1.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020-11-03 23:33:42.264,D:\Programming\GitHub\Delphi\델파이기초20201101\Record\Unit1.pas=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-11-03 23:33:45.376,D:\Programming\GitHub\Delphi\델파이기초20201101\Record\Project1.dproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

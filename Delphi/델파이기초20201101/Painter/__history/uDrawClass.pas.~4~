@@ -1,0 +1,32 @@
+unit uDrawClass;
+
+interface
+
+  uses
+    Vcl.Graphics, System.Classes;
+
+  type
+    tEntType = (etLine, etRectangle, etCircle);
+    TDrawClass = class
+    private
+       FList : TList;
+    public
+      procedure Add(AEntType:tEntType);
+    end;
+
+implementation
+
+{ TDrawClass }
+
+procedure TDrawClass.Add(AEntType: tEntType);
+  var
+    ent : TEntity;
+begin
+   case AEntType of
+      etLine : ent := TLine.Create();
+      etRectangle :  TRectangle.Create();
+      etCircle :  TCircle.Create();
+   end;
+end;
+
+end.

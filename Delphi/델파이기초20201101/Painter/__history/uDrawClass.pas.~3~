@@ -1,0 +1,15 @@
+unit uDrawClass;
+
+interface
+  type
+    tEntType = (etLine, etRectangle, etCircle);
+    TDrawClass = class
+    private
+
+    public
+      procedure Add(AEntType:tEntType);
+    end;
+
+implementation
+
+end.

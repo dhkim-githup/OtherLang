@@ -1,0 +1,56 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, System.ImageList, Vcl.ImgList;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    ImageList1: TImageList;
+    File1: TMenuItem;
+    Open1: TMenuItem;
+    Save1: TMenuItem;
+    N1: TMenuItem;
+    Close1: TMenuItem;
+    Edit1: TMenuItem;
+    Color1: TMenuItem;
+    Red1: TMenuItem;
+    Yello1: TMenuItem;
+    Blue1: TMenuItem;
+    procedure Open1Click(Sender: TObject);
+    procedure Red1Click(Sender: TObject);
+    procedure Yello1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Open1Click(Sender: TObject);
+begin
+   ShowMessage('File Open');
+end;
+
+procedure TForm1.Red1Click(Sender: TObject);
+begin
+   Red1.Checked := true;
+   Color := clRed;
+end;
+
+procedure TForm1.Yello1Click(Sender: TObject);
+begin
+    Yello1.Checked := true;
+   Color := clYellow;
+end;
+
+end.

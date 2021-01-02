@@ -1,0 +1,71 @@
+unit uFmMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Panel1: TPanel;
+    pb: TPaintBox;
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+ uses
+   uDrawClass;
+
+ var
+   DrawClass : TDrawClass;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+   DrawClass.Add(etLine);
+   //DrawClass.Draw;
+   pb.Refresh;
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  DrawClass.Add(etRectangle);
+  pb.Refresh;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+   DrawClass.Add(etCircle);
+   pb.Refresh;
+end;
+
+procedure TForm1.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+    DrawClass.Free;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+    DrawClass := TDrawClass.Create;
+end;
+
+end.

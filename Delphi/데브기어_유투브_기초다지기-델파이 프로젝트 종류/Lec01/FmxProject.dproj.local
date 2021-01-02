@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.804,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\FmxForm.pas=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.804,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\FmxForm.fmx=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.898,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.136,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\FmxProject.dproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

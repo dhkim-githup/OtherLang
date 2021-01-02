@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.783,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\MainForm.pas=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.571,=D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.574,=D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.781,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\VclProject.dproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.704,=D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.543,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.783,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec01\MainForm.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,60 @@
+unit Main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Edit1KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure Edit1KeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+  var
+    Name, Email, Address: string;
+begin
+    if Edit1.Text ='' then
+     Begin
+       ShowMessage('입력해요.');
+       Edit1.SetFocus;
+
+       Exit;
+     End;
+
+     if Edit1.Text='NO' then
+        ShowMessage('Don''t Speak No');
+
+     Name :='홍길동';
+     Email :='mail@email.com';
+     Address:='서울시 서초구';
+end;
+
+procedure TForm1.Edit1KeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+    Edit1.Text :='';
+end;
+
+procedure TForm1.Edit1KeyPress(Sender: TObject; var Key: Char);
+begin
+    Edit1.Text :='';
+end;
+
+end.

@@ -1,0 +1,14 @@
+unit uDrawClass;
+
+interface
+  type
+    TDrawClass = class
+    private
+
+    public
+
+    end;
+
+implementation
+
+end.

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020-11-05 20:21:23.830,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-11-05 20:22:18.896,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Main.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020-11-05 20:22:18.896,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Main.pas=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-11-05 20:23:23.529,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec02\Main.pas=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Main.pas</Transaction>
+    <Transaction>2020-11-05 20:23:23.529,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec02\Main.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Main.dfm</Transaction>
+    <Transaction>2020-11-05 20:23:51.713,D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec02\SourceStructure.dproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020-11-05 20:26:09.260,=D:\Programming\GitHub\Delphi\데브기어_유투브_기초다지기-델파이 프로젝트 종류\Lec02\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

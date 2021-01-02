@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020-11-04 22:07:04.113,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-11-04 22:16:57.652,D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\Unit1.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020-11-04 22:16:57.652,D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\Unit1.pas=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-11-04 22:17:00.688,D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\Project1.dproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020-11-04 22:17:20.776,=D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\Unit2.pas</Transaction>
+    <Transaction>2020-11-04 22:17:41.180,D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\uDrawClass.pas=D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\Unit2.pas</Transaction>
+    <Transaction>2020-11-04 22:19:40.361,D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\uFmMain.dfm=D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\Unit1.dfm</Transaction>
+    <Transaction>2020-11-04 22:19:40.361,D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\uFmMain.pas=D:\Programming\GitHub\Delphi\델파이기초20201101\Painter\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

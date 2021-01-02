@@ -1,0 +1,28 @@
+# Title  :
+# 작성자 : 류종택
+# 작성일 : 2004년 6월 24일
+
+
+Create Table STCode01 (
+
+  SN                         Int                 Not Null Auto_Increment,
+  Caption                    varchar(16)         ,
+
+  Primary Key (SN)
+
+);
+
+
+Insert into STCode01 (SN, Caption) values (0, '완납');
+Insert into STCode01 (SN, Caption) values (1, '차납');
+Insert into STCode01 (SN, Caption) values (2, '미납');
+Insert into STCode01 (SN, Caption) values (3, '대기');
+Insert into STCode01 (SN, Caption) values (4, '누락');
+
+
+update STApplies set StatusCode = 0 where Status = '완납';
+update STApplies set StatusCode = 1 where Status = '차납';
+update STApplies set StatusCode = 2 where Status = '미납';
+update STApplies set StatusCode = 3 where Status = '대기';
+update STApplies set StatusCode = 4 where Status = '누락';
+
